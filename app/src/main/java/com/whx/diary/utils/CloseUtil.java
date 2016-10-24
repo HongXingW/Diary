@@ -12,10 +12,10 @@ public class CloseUtil {
 
     public static void close(Closeable closeable) {
 
-        if (closeable != null){
+        if (closeable != null) {
             try {
                 closeable.close();
-            } catch (IOException e){
+            } catch (IOException e) {
                 e.printStackTrace();
             }
         }
