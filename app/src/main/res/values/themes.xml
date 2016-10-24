@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.SlideTheme" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/ActivityEnterExitTranslucentAnimation</item>
+    </style>
+
+    <style name="ActivityEnterExitTranslucentAnimation"
+        parent="@android:style/Animation.Translucent">
+
+    </style>
+</resources>
