@@ -2,10 +2,10 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "24.0.2"
+    buildToolsVersion "25.0.0"
     defaultConfig {
         applicationId "com.whx.diary"
-        minSdkVersion 14
+        minSdkVersion 15
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
@@ -23,6 +23,8 @@ dependencies {
     compile project(":libraries:Slidr")
     //依赖注入框架butterknife
     compile 'com.jakewharton:butterknife:7.0.1'
+    //按钮
+    compile 'com.oguzdev:CircularFloatingActionMenu:1.0.2'
 
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
